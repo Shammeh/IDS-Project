@@ -4,7 +4,7 @@ Hybrid network intrusion detection on UNSW-NB15: Autoencoder reconstruction-erro
 
 Multi-class network intrusion detection on **UNSW-NB15**, combining an Autoencoder's reconstruction error as an extra feature with SMOTE balancing and a 1D-CNN classifier.
 
-![Pipeline](images/pipeline.png)
+![Pipeline](images/1_pipeline.png)
 
 ## Idea
 
@@ -47,8 +47,8 @@ An Autoencoder is trained **only on normal traffic**, so it reconstructs normal 
 | Analysis | 0.08 | 0.31 | 0.13 | 158 |
 | Backdoors | 0.08 | 0.20 | 0.11 | 160 |
 
-![Per-class metrics](images/per_class_metrics.png)
-![Confusion matrix](images/confusion_matrix.png)
+![Per-class metrics](images/2_per_class_metrics.png)
+![Confusion matrix](images/3_confusion_matrix.png)
 
 ## Limitations
 
