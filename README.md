@@ -47,8 +47,8 @@ An Autoencoder is trained **only on normal traffic**, so it reconstructs normal 
 | Analysis | 0.08 | 0.31 | 0.13 | 158 |
 | Backdoors | 0.08 | 0.20 | 0.11 | 160 |
 
-![Per-class metrics](images/2_per_class_metrics.png)
-![Confusion matrix](images/3_confusion_matrix.png)
+![Per-class metrics](images/3_per_class_metrics.png)
+![Confusion matrix](images/2_confusion_matrix.png)
 
 ## Limitations
 
